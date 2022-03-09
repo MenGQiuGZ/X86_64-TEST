@@ -13,7 +13,6 @@
 sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
 
 
-
 git clone https://github.com/linkease/istore.git package/istore
 #sirpdboy
 #git clone https://github.com/sirpdboy/sirpdboy-package.git package/sirpdboy-package
@@ -38,7 +37,7 @@ git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom package
 git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/luci-theme-opentomcat
 git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git package/luci-theme-atmaterial
 # Add luci-theme-argon
-git clone https://github.com/kiddin9/luci-app-dnsfilter.git package/luci-app-dnsfilter
+#git clone https://github.com/kiddin9/luci-app-dnsfilter.git package/luci-app-dnsfilter
 
 #git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 
