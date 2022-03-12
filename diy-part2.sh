@@ -22,7 +22,7 @@ sed -i '/customized in this file/a net.bridge.bridge-nf-call-iptables=0' package
 
 #修复LXC Luci网卡显示
 rm package/lean/autocore/files/x86/sbin/ethinfo
-cp -f ../ethinfo package/lean/autocore/files/x86/sbin
+cp ./ethinfo package/lean/autocore/files/x86/sbin/
 
 git clone https://github.com/linkease/istore.git package/istore
 #sirpdboy
