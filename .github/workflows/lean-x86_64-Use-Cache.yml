@@ -87,6 +87,7 @@ jobs:
         chmod +x $DIY_P2_SH
         cd openwrt
         chmod -R 755 files
+        chmod 644 files/usr/lib/lua/luci/view/admin_status/index.htm
         $GITHUB_WORKSPACE/$DIY_P2_SH
 
     - name: SSH connection to Actions
