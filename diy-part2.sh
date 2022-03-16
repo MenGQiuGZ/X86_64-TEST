@@ -21,7 +21,7 @@ sed -i '/customized in this file/a net.bridge.bridge-nf-call-ip6tables=0' packag
 sed -i '/customized in this file/a net.bridge.bridge-nf-call-iptables=0' package/base-files/files/etc/sysctl.conf
 
 #Files权限
-chmod 777 $GITHUB_WORKSPACE/files/ -R
+chmod 777 $GITHUB_WORKSPACE/files/sbin/ethinfo
 
 git clone https://github.com/linkease/istore.git package/istore
 #sirpdboy
