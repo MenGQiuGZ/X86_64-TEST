@@ -20,13 +20,14 @@ sed -i '/customized in this file/a net.bridge.bridge-nf-call-arptables=0' packag
 sed -i '/customized in this file/a net.bridge.bridge-nf-call-ip6tables=0' package/base-files/files/etc/sysctl.conf
 sed -i '/customized in this file/a net.bridge.bridge-nf-call-iptables=0' package/base-files/files/etc/sysctl.conf
 
-git clone https://github.com/linkease/istore.git package/istore
-#sirpdboy
-#git clone https://github.com/sirpdboy/sirpdboy-package.git package/sirpdboy-package
+# git clone https://github.com/linkease/istore.git package/istore
+
+###sirpdboy###
+# git clone https://github.com/sirpdboy/sirpdboy-package.git package/sirpdboy-package
 git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/luci-theme-opentopd
 git clone https://github.com/sirpdboy/luci-app-advanced.git package/luci-app-advanced
-git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
-git clone https://github.com/sirpdboy/luci-app-netdata.git package/luci-app-netdata
+# git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
+# git clone https://github.com/sirpdboy/luci-app-netdata.git package/luci-app-netdata
 git clone https://github.com/sirpdboy/luci-app-poweroffdevice.git package/luci-app-poweroffdevice
 git clone https://github.com/sirpdboy/luci-app-autotimeset.git package/luci-app-autotimeset
 
@@ -38,9 +39,10 @@ git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git package/l
 # Add luci-theme-argon
 #git clone https://github.com/kiddin9/luci-app-dnsfilter.git package/luci-app-dnsfilter
 
-git clone https://github.com/kiddin9/openwrt-bypass.git package/luci-app-bypass
+# git clone https://github.com/kiddin9/openwrt-bypass.git package/luci-app-bypass
 
-#git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
+git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
+git clone https://github.com/kenzok8/small.git package/small-package
 
 #添加额外非必须软件包
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
