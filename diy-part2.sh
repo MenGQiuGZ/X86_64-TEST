@@ -25,6 +25,7 @@ sed -i '/customized in this file/a net.bridge.bridge-nf-call-iptables=0' package
 # git clone https://github.com/kenzok8/small.git package/small-package
 
 # git clone https://github.com/linkease/istore.git package/istore
+# sed -i 's/luci-lib-ipkg/luci-base/g' package/feeds/kenzok/luci-app-store/Makefile
 
 # git clone https://github.com/kiddin9/openwrt-bypass.git package/luci-app-bypass
 
